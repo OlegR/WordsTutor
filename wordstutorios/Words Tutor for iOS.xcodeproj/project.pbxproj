@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D92817FF16ABED4500B708A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D92817FE16ABED4500B708A5 /* UIKit.framework */; };
+		D928180116ABED4500B708A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D928180016ABED4500B708A5 /* Foundation.framework */; };
+		D928180316ABED4500B708A5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D928180216ABED4500B708A5 /* CoreGraphics.framework */; };
+		D928180516ABED4500B708A5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D928180416ABED4500B708A5 /* CoreData.framework */; };
+		D928180B16ABED4500B708A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D928180916ABED4500B708A5 /* InfoPlist.strings */; };
+		D928180D16ABED4500B708A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D928180C16ABED4500B708A5 /* main.m */; };
+		D928181116ABED4500B708A5 /* WTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D928181016ABED4500B708A5 /* WTAppDelegate.m */; };
+		D928181316ABED4500B708A5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D928181216ABED4500B708A5 /* Default.png */; };
+		D928181516ABED4500B708A5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D928181416ABED4500B708A5 /* Default@2x.png */; };
+		D928181716ABED4500B708A5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D928181616ABED4500B708A5 /* Default-568h@2x.png */; };
+		D928181A16ABED4500B708A5 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D928181816ABED4500B708A5 /* MainStoryboard_iPhone.storyboard */; };
+		D928181D16ABED4500B708A5 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D928181B16ABED4500B708A5 /* MainStoryboard_iPad.storyboard */; };
+		D928182016ABED4500B708A5 /* wordstutorios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D928181E16ABED4500B708A5 /* wordstutorios.xcdatamodeld */; };
+		D928182316ABED4500B708A5 /* WTMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D928182216ABED4500B708A5 /* WTMasterViewController.m */; };
+		D928182616ABED4500B708A5 /* WTDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D928182516ABED4500B708A5 /* WTDetailViewController.m */; };
+		D928182E16ABED4500B708A5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D928182D16ABED4500B708A5 /* SenTestingKit.framework */; };
+		D928182F16ABED4500B708A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D92817FE16ABED4500B708A5 /* UIKit.framework */; };
+		D928183016ABED4500B708A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D928180016ABED4500B708A5 /* Foundation.framework */; };
+		D928183116ABED4500B708A5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D928180416ABED4500B708A5 /* CoreData.framework */; };
+		D928183916ABED4600B708A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D928183716ABED4500B708A5 /* InfoPlist.strings */; };
+		D928183C16ABED4600B708A5 /* wordstutoriosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D928183B16ABED4600B708A5 /* wordstutoriosTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D928183216ABED4500B708A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D92817F116ABED4500B708A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D92817F916ABED4500B708A5;
+			remoteInfo = wordstutorios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D92817FA16ABED4500B708A5 /* wordstutorios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wordstutorios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D92817FE16ABED4500B708A5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D928180016ABED4500B708A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D928180216ABED4500B708A5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D928180416ABED4500B708A5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D928180816ABED4500B708A5 /* wordstutorios-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wordstutorios-Info.plist"; sourceTree = "<group>"; };
+		D928180A16ABED4500B708A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D928180C16ABED4500B708A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D928180E16ABED4500B708A5 /* wordstutorios-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "wordstutorios-Prefix.pch"; sourceTree = "<group>"; };
+		D928180F16ABED4500B708A5 /* WTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTAppDelegate.h; sourceTree = "<group>"; };
+		D928181016ABED4500B708A5 /* WTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTAppDelegate.m; sourceTree = "<group>"; };
+		D928181216ABED4500B708A5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D928181416ABED4500B708A5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D928181616ABED4500B708A5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D928181916ABED4500B708A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		D928181C16ABED4500B708A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		D928181F16ABED4500B708A5 /* wordstutorios.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = wordstutorios.xcdatamodel; sourceTree = "<group>"; };
+		D928182116ABED4500B708A5 /* WTMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTMasterViewController.h; sourceTree = "<group>"; };
+		D928182216ABED4500B708A5 /* WTMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTMasterViewController.m; sourceTree = "<group>"; };
+		D928182416ABED4500B708A5 /* WTDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTDetailViewController.h; sourceTree = "<group>"; };
+		D928182516ABED4500B708A5 /* WTDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTDetailViewController.m; sourceTree = "<group>"; };
+		D928182C16ABED4500B708A5 /* wordstutoriosTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wordstutoriosTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D928182D16ABED4500B708A5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D928183616ABED4500B708A5 /* wordstutoriosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wordstutoriosTests-Info.plist"; sourceTree = "<group>"; };
+		D928183816ABED4600B708A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D928183A16ABED4600B708A5 /* wordstutoriosTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wordstutoriosTests.h; sourceTree = "<group>"; };
+		D928183B16ABED4600B708A5 /* wordstutoriosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wordstutoriosTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D92817F716ABED4500B708A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D92817FF16ABED4500B708A5 /* UIKit.framework in Frameworks */,
+				D928180116ABED4500B708A5 /* Foundation.framework in Frameworks */,
+				D928180316ABED4500B708A5 /* CoreGraphics.framework in Frameworks */,
+				D928180516ABED4500B708A5 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D928182816ABED4500B708A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D928182E16ABED4500B708A5 /* SenTestingKit.framework in Frameworks */,
+				D928182F16ABED4500B708A5 /* UIKit.framework in Frameworks */,
+				D928183016ABED4500B708A5 /* Foundation.framework in Frameworks */,
+				D928183116ABED4500B708A5 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D92817EF16ABED4500B708A5 = {
+			isa = PBXGroup;
+			children = (
+				D928180616ABED4500B708A5 /* wordstutorios */,
+				D928183416ABED4500B708A5 /* wordstutoriosTests */,
+				D92817FD16ABED4500B708A5 /* Frameworks */,
+				D92817FB16ABED4500B708A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D92817FB16ABED4500B708A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D92817FA16ABED4500B708A5 /* wordstutorios.app */,
+				D928182C16ABED4500B708A5 /* wordstutoriosTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D92817FD16ABED4500B708A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D92817FE16ABED4500B708A5 /* UIKit.framework */,
+				D928180016ABED4500B708A5 /* Foundation.framework */,
+				D928180216ABED4500B708A5 /* CoreGraphics.framework */,
+				D928180416ABED4500B708A5 /* CoreData.framework */,
+				D928182D16ABED4500B708A5 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D928180616ABED4500B708A5 /* wordstutorios */ = {
+			isa = PBXGroup;
+			children = (
+				D928180F16ABED4500B708A5 /* WTAppDelegate.h */,
+				D928181016ABED4500B708A5 /* WTAppDelegate.m */,
+				D928181816ABED4500B708A5 /* MainStoryboard_iPhone.storyboard */,
+				D928181B16ABED4500B708A5 /* MainStoryboard_iPad.storyboard */,
+				D928182116ABED4500B708A5 /* WTMasterViewController.h */,
+				D928182216ABED4500B708A5 /* WTMasterViewController.m */,
+				D928182416ABED4500B708A5 /* WTDetailViewController.h */,
+				D928182516ABED4500B708A5 /* WTDetailViewController.m */,
+				D928181E16ABED4500B708A5 /* wordstutorios.xcdatamodeld */,
+				D928180716ABED4500B708A5 /* Supporting Files */,
+			);
+			path = wordstutorios;
+			sourceTree = "<group>";
+		};
+		D928180716ABED4500B708A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D928180816ABED4500B708A5 /* wordstutorios-Info.plist */,
+				D928180916ABED4500B708A5 /* InfoPlist.strings */,
+				D928180C16ABED4500B708A5 /* main.m */,
+				D928180E16ABED4500B708A5 /* wordstutorios-Prefix.pch */,
+				D928181216ABED4500B708A5 /* Default.png */,
+				D928181416ABED4500B708A5 /* Default@2x.png */,
+				D928181616ABED4500B708A5 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D928183416ABED4500B708A5 /* wordstutoriosTests */ = {
+			isa = PBXGroup;
+			children = (
+				D928183A16ABED4600B708A5 /* wordstutoriosTests.h */,
+				D928183B16ABED4600B708A5 /* wordstutoriosTests.m */,
+				D928183516ABED4500B708A5 /* Supporting Files */,
+			);
+			path = wordstutoriosTests;
+			sourceTree = "<group>";
+		};
+		D928183516ABED4500B708A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D928183616ABED4500B708A5 /* wordstutoriosTests-Info.plist */,
+				D928183716ABED4500B708A5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D92817F916ABED4500B708A5 /* wordstutorios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D928183F16ABED4600B708A5 /* Build configuration list for PBXNativeTarget "wordstutorios" */;
+			buildPhases = (
+				D92817F616ABED4500B708A5 /* Sources */,
+				D92817F716ABED4500B708A5 /* Frameworks */,
+				D92817F816ABED4500B708A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wordstutorios;
+			productName = wordstutorios;
+			productReference = D92817FA16ABED4500B708A5 /* wordstutorios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D928182B16ABED4500B708A5 /* wordstutoriosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D928184216ABED4600B708A5 /* Build configuration list for PBXNativeTarget "wordstutoriosTests" */;
+			buildPhases = (
+				D928182716ABED4500B708A5 /* Sources */,
+				D928182816ABED4500B708A5 /* Frameworks */,
+				D928182916ABED4500B708A5 /* Resources */,
+				D928182A16ABED4500B708A5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D928183316ABED4500B708A5 /* PBXTargetDependency */,
+			);
+			name = wordstutoriosTests;
+			productName = wordstutoriosTests;
+			productReference = D928182C16ABED4500B708A5 /* wordstutoriosTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D92817F116ABED4500B708A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WT;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = OlegR;
+			};
+			buildConfigurationList = D92817F416ABED4500B708A5 /* Build configuration list for PBXProject "Words Tutor for iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D92817EF16ABED4500B708A5;
+			productRefGroup = D92817FB16ABED4500B708A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D92817F916ABED4500B708A5 /* wordstutorios */,
+				D928182B16ABED4500B708A5 /* wordstutoriosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D92817F816ABED4500B708A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D928180B16ABED4500B708A5 /* InfoPlist.strings in Resources */,
+				D928181316ABED4500B708A5 /* Default.png in Resources */,
+				D928181516ABED4500B708A5 /* Default@2x.png in Resources */,
+				D928181716ABED4500B708A5 /* Default-568h@2x.png in Resources */,
+				D928181A16ABED4500B708A5 /* MainStoryboard_iPhone.storyboard in Resources */,
+				D928181D16ABED4500B708A5 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D928182916ABED4500B708A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D928183916ABED4600B708A5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D928182A16ABED4500B708A5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D92817F616ABED4500B708A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D928180D16ABED4500B708A5 /* main.m in Sources */,
+				D928181116ABED4500B708A5 /* WTAppDelegate.m in Sources */,
+				D928182016ABED4500B708A5 /* wordstutorios.xcdatamodeld in Sources */,
+				D928182316ABED4500B708A5 /* WTMasterViewController.m in Sources */,
+				D928182616ABED4500B708A5 /* WTDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D928182716ABED4500B708A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D928183C16ABED4600B708A5 /* wordstutoriosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D928183316ABED4500B708A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D92817F916ABED4500B708A5 /* wordstutorios */;
+			targetProxy = D928183216ABED4500B708A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D928180916ABED4500B708A5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D928180A16ABED4500B708A5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D928181816ABED4500B708A5 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D928181916ABED4500B708A5 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		D928181B16ABED4500B708A5 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D928181C16ABED4500B708A5 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		D928183716ABED4500B708A5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D928183816ABED4600B708A5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D928183D16ABED4600B708A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D928183E16ABED4600B708A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D928184016ABED4600B708A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wordstutorios/wordstutorios-Prefix.pch";
+				INFOPLIST_FILE = "wordstutorios/wordstutorios-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D928184116ABED4600B708A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wordstutorios/wordstutorios-Prefix.pch";
+				INFOPLIST_FILE = "wordstutorios/wordstutorios-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D928184316ABED4600B708A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/wordstutorios.app/wordstutorios";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wordstutorios/wordstutorios-Prefix.pch";
+				INFOPLIST_FILE = "wordstutoriosTests/wordstutoriosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D928184416ABED4600B708A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/wordstutorios.app/wordstutorios";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wordstutorios/wordstutorios-Prefix.pch";
+				INFOPLIST_FILE = "wordstutoriosTests/wordstutoriosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D92817F416ABED4500B708A5 /* Build configuration list for PBXProject "Words Tutor for iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D928183D16ABED4600B708A5 /* Debug */,
+				D928183E16ABED4600B708A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D928183F16ABED4600B708A5 /* Build configuration list for PBXNativeTarget "wordstutorios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D928184016ABED4600B708A5 /* Debug */,
+				D928184116ABED4600B708A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D928184216ABED4600B708A5 /* Build configuration list for PBXNativeTarget "wordstutoriosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D928184316ABED4600B708A5 /* Debug */,
+				D928184416ABED4600B708A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D928181E16ABED4500B708A5 /* wordstutorios.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D928181F16ABED4500B708A5 /* wordstutorios.xcdatamodel */,
+			);
+			currentVersion = D928181F16ABED4500B708A5 /* wordstutorios.xcdatamodel */;
+			path = wordstutorios.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D92817F116ABED4500B708A5 /* Project object */;
+}
