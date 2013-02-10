@@ -445,6 +445,7 @@
 				D92817EB16ABED0F00B708A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D92817EC16ABED0F00B708A5 /* Build configuration list for PBXNativeTarget "wordstutorosxTests" */ = {
 			isa = XCConfigurationList;
@@ -453,6 +454,7 @@
 				D92817EE16ABED0F00B708A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
