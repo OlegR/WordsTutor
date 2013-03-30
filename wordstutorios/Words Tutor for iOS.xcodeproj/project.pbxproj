@@ -13,15 +13,15 @@
 		D928180516ABED4500B708A5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D928180416ABED4500B708A5 /* CoreData.framework */; };
 		D928180B16ABED4500B708A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D928180916ABED4500B708A5 /* InfoPlist.strings */; };
 		D928180D16ABED4500B708A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D928180C16ABED4500B708A5 /* main.m */; };
-		D928181116ABED4500B708A5 /* WTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D928181016ABED4500B708A5 /* WTAppDelegate.m */; };
+		D928181116ABED4500B708A5 /* ORAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D928181016ABED4500B708A5 /* ORAppDelegate.m */; };
 		D928181316ABED4500B708A5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D928181216ABED4500B708A5 /* Default.png */; };
 		D928181516ABED4500B708A5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D928181416ABED4500B708A5 /* Default@2x.png */; };
 		D928181716ABED4500B708A5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D928181616ABED4500B708A5 /* Default-568h@2x.png */; };
 		D928181A16ABED4500B708A5 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D928181816ABED4500B708A5 /* MainStoryboard_iPhone.storyboard */; };
 		D928181D16ABED4500B708A5 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D928181B16ABED4500B708A5 /* MainStoryboard_iPad.storyboard */; };
 		D928182016ABED4500B708A5 /* wordstutorios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D928181E16ABED4500B708A5 /* wordstutorios.xcdatamodeld */; };
-		D928182316ABED4500B708A5 /* WTMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D928182216ABED4500B708A5 /* WTMasterViewController.m */; };
-		D928182616ABED4500B708A5 /* WTDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D928182516ABED4500B708A5 /* WTDetailViewController.m */; };
+		D928182316ABED4500B708A5 /* ORMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D928182216ABED4500B708A5 /* ORMasterViewController.m */; };
+		D928182616ABED4500B708A5 /* ORDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D928182516ABED4500B708A5 /* ORDetailViewController.m */; };
 		D928182E16ABED4500B708A5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D928182D16ABED4500B708A5 /* SenTestingKit.framework */; };
 		D928182F16ABED4500B708A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D92817FE16ABED4500B708A5 /* UIKit.framework */; };
 		D928183016ABED4500B708A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D928180016ABED4500B708A5 /* Foundation.framework */; };
@@ -50,18 +50,18 @@
 		D928180A16ABED4500B708A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D928180C16ABED4500B708A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D928180E16ABED4500B708A5 /* wordstutorios-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "wordstutorios-Prefix.pch"; sourceTree = "<group>"; };
-		D928180F16ABED4500B708A5 /* WTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTAppDelegate.h; sourceTree = "<group>"; };
-		D928181016ABED4500B708A5 /* WTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTAppDelegate.m; sourceTree = "<group>"; };
+		D928180F16ABED4500B708A5 /* ORAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORAppDelegate.h; sourceTree = "<group>"; };
+		D928181016ABED4500B708A5 /* ORAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORAppDelegate.m; sourceTree = "<group>"; };
 		D928181216ABED4500B708A5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		D928181416ABED4500B708A5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		D928181616ABED4500B708A5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		D928181916ABED4500B708A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		D928181C16ABED4500B708A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		D928181F16ABED4500B708A5 /* wordstutorios.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = wordstutorios.xcdatamodel; sourceTree = "<group>"; };
-		D928182116ABED4500B708A5 /* WTMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTMasterViewController.h; sourceTree = "<group>"; };
-		D928182216ABED4500B708A5 /* WTMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTMasterViewController.m; sourceTree = "<group>"; };
-		D928182416ABED4500B708A5 /* WTDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTDetailViewController.h; sourceTree = "<group>"; };
-		D928182516ABED4500B708A5 /* WTDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTDetailViewController.m; sourceTree = "<group>"; };
+		D928182116ABED4500B708A5 /* ORMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORMasterViewController.h; sourceTree = "<group>"; };
+		D928182216ABED4500B708A5 /* ORMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORMasterViewController.m; sourceTree = "<group>"; };
+		D928182416ABED4500B708A5 /* ORDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORDetailViewController.h; sourceTree = "<group>"; };
+		D928182516ABED4500B708A5 /* ORDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORDetailViewController.m; sourceTree = "<group>"; };
 		D928182C16ABED4500B708A5 /* wordstutoriosTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wordstutoriosTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D928182D16ABED4500B708A5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		D928183616ABED4500B708A5 /* wordstutoriosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wordstutoriosTests-Info.plist"; sourceTree = "<group>"; };
@@ -130,14 +130,14 @@
 		D928180616ABED4500B708A5 /* wordstutorios */ = {
 			isa = PBXGroup;
 			children = (
-				D928180F16ABED4500B708A5 /* WTAppDelegate.h */,
-				D928181016ABED4500B708A5 /* WTAppDelegate.m */,
+				D928180F16ABED4500B708A5 /* ORAppDelegate.h */,
+				D928181016ABED4500B708A5 /* ORAppDelegate.m */,
 				D928181816ABED4500B708A5 /* MainStoryboard_iPhone.storyboard */,
 				D928181B16ABED4500B708A5 /* MainStoryboard_iPad.storyboard */,
-				D928182116ABED4500B708A5 /* WTMasterViewController.h */,
-				D928182216ABED4500B708A5 /* WTMasterViewController.m */,
-				D928182416ABED4500B708A5 /* WTDetailViewController.h */,
-				D928182516ABED4500B708A5 /* WTDetailViewController.m */,
+				D928182116ABED4500B708A5 /* ORMasterViewController.h */,
+				D928182216ABED4500B708A5 /* ORMasterViewController.m */,
+				D928182416ABED4500B708A5 /* ORDetailViewController.h */,
+				D928182516ABED4500B708A5 /* ORDetailViewController.m */,
 				D928181E16ABED4500B708A5 /* wordstutorios.xcdatamodeld */,
 				D928180716ABED4500B708A5 /* Supporting Files */,
 			);
@@ -290,10 +290,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D928180D16ABED4500B708A5 /* main.m in Sources */,
-				D928181116ABED4500B708A5 /* WTAppDelegate.m in Sources */,
+				D928181116ABED4500B708A5 /* ORAppDelegate.m in Sources */,
 				D928182016ABED4500B708A5 /* wordstutorios.xcdatamodeld in Sources */,
-				D928182316ABED4500B708A5 /* WTMasterViewController.m in Sources */,
-				D928182616ABED4500B708A5 /* WTDetailViewController.m in Sources */,
+				D928182316ABED4500B708A5 /* ORMasterViewController.m in Sources */,
+				D928182616ABED4500B708A5 /* ORDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,6 +480,7 @@
 				D928184116ABED4600B708A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D928184216ABED4600B708A5 /* Build configuration list for PBXNativeTarget "wordstutoriosTests" */ = {
 			isa = XCConfigurationList;
@@ -488,6 +489,7 @@
 				D928184416ABED4600B708A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
