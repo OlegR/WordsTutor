@@ -18,6 +18,7 @@
 		D9B4AA601706E73D00CC2C6C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B4AA3D1706E73C00CC2C6C /* Cocoa.framework */; };
 		D9B4AA681706E73D00CC2C6C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9B4AA661706E73D00CC2C6C /* InfoPlist.strings */; };
 		D9B4AA6B1706E73D00CC2C6C /* wordstutorosxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B4AA6A1706E73D00CC2C6C /* wordstutorosxTests.m */; };
+		D9FE4C731706EA0A0016CED2 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9FE4C721706EA0A0016CED2 /* MainView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		D9B4AA671706E73D00CC2C6C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D9B4AA691706E73D00CC2C6C /* wordstutorosxTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wordstutorosxTests.h; sourceTree = "<group>"; };
 		D9B4AA6A1706E73D00CC2C6C /* wordstutorosxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wordstutorosxTests.m; sourceTree = "<group>"; };
+		D9FE4C721706EA0A0016CED2 /* MainView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,21 +98,13 @@
 		D9B4AA3C1706E73C00CC2C6C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D9B4AA3D1706E73C00CC2C6C /* Cocoa.framework */,
-				D9B4AA5E1706E73D00CC2C6C /* SenTestingKit.framework */,
-				D9B4AA3F1706E73C00CC2C6C /* Other Frameworks */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D9B4AA3F1706E73C00CC2C6C /* Other Frameworks */ = {
-			isa = PBXGroup;
-			children = (
 				D9B4AA401706E73C00CC2C6C /* AppKit.framework */,
 				D9B4AA411706E73C00CC2C6C /* CoreData.framework */,
 				D9B4AA421706E73C00CC2C6C /* Foundation.framework */,
+				D9B4AA3D1706E73C00CC2C6C /* Cocoa.framework */,
+				D9B4AA5E1706E73D00CC2C6C /* SenTestingKit.framework */,
 			);
-			name = "Other Frameworks";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		D9B4AA431706E73C00CC2C6C /* wordstutorosx */ = {
@@ -121,6 +115,7 @@
 				D9B4AA521706E73C00CC2C6C /* MainMenu.xib */,
 				D9B4AA551706E73C00CC2C6C /* wordstutorosx.xcdatamodeld */,
 				D9B4AA441706E73C00CC2C6C /* Supporting Files */,
+				D9FE4C721706EA0A0016CED2 /* MainView.xib */,
 			);
 			path = wordstutorosx;
 			sourceTree = "<group>";
@@ -231,6 +226,7 @@
 				D9B4AA481706E73C00CC2C6C /* InfoPlist.strings in Resources */,
 				D9B4AA4E1706E73C00CC2C6C /* Credits.rtf in Resources */,
 				D9B4AA541706E73C00CC2C6C /* MainMenu.xib in Resources */,
+				D9FE4C731706EA0A0016CED2 /* MainView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +453,7 @@
 				D9B4AA701706E73D00CC2C6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9B4AA711706E73D00CC2C6C /* Build configuration list for PBXNativeTarget "wordstutorosxTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +462,7 @@
 				D9B4AA731706E73D00CC2C6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
