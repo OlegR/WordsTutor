@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9B4A9F71706E70900CC2C6C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B4A9F61706E70900CC2C6C /* UIKit.framework */; };
+		D9B4A9F91706E70900CC2C6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B4A9F81706E70900CC2C6C /* Foundation.framework */; };
+		D9B4A9FB1706E70900CC2C6C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B4A9FA1706E70900CC2C6C /* CoreGraphics.framework */; };
+		D9B4A9FD1706E70900CC2C6C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B4A9FC1706E70900CC2C6C /* CoreData.framework */; };
+		D9B4AA031706E70900CC2C6C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9B4AA011706E70900CC2C6C /* InfoPlist.strings */; };
+		D9B4AA051706E70900CC2C6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B4AA041706E70900CC2C6C /* main.m */; };
+		D9B4AA091706E70A00CC2C6C /* ORAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B4AA081706E70A00CC2C6C /* ORAppDelegate.m */; };
+		D9B4AA0B1706E70A00CC2C6C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D9B4AA0A1706E70A00CC2C6C /* Default.png */; };
+		D9B4AA0D1706E70A00CC2C6C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9B4AA0C1706E70A00CC2C6C /* Default@2x.png */; };
+		D9B4AA0F1706E70A00CC2C6C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9B4AA0E1706E70A00CC2C6C /* Default-568h@2x.png */; };
+		D9B4AA121706E70A00CC2C6C /* wordstutorios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D9B4AA101706E70A00CC2C6C /* wordstutorios.xcdatamodeld */; };
+		D9B4AA1A1706E70A00CC2C6C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B4AA191706E70A00CC2C6C /* SenTestingKit.framework */; };
+		D9B4AA1B1706E70A00CC2C6C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B4A9F61706E70900CC2C6C /* UIKit.framework */; };
+		D9B4AA1C1706E70A00CC2C6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B4A9F81706E70900CC2C6C /* Foundation.framework */; };
+		D9B4AA1D1706E70A00CC2C6C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B4A9FC1706E70900CC2C6C /* CoreData.framework */; };
+		D9B4AA251706E70A00CC2C6C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9B4AA231706E70A00CC2C6C /* InfoPlist.strings */; };
+		D9B4AA281706E70A00CC2C6C /* wordstutoriosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B4AA271706E70A00CC2C6C /* wordstutoriosTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9B4AA1E1706E70A00CC2C6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9B4A9EB1706E70900CC2C6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9B4A9F21706E70900CC2C6C;
+			remoteInfo = wordstutorios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D9B4A9F31706E70900CC2C6C /* wordstutorios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wordstutorios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9B4A9F61706E70900CC2C6C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D9B4A9F81706E70900CC2C6C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D9B4A9FA1706E70900CC2C6C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D9B4A9FC1706E70900CC2C6C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D9B4AA001706E70900CC2C6C /* wordstutorios-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wordstutorios-Info.plist"; sourceTree = "<group>"; };
+		D9B4AA021706E70900CC2C6C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D9B4AA041706E70900CC2C6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9B4AA061706E70A00CC2C6C /* wordstutorios-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "wordstutorios-Prefix.pch"; sourceTree = "<group>"; };
+		D9B4AA071706E70A00CC2C6C /* ORAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORAppDelegate.h; sourceTree = "<group>"; };
+		D9B4AA081706E70A00CC2C6C /* ORAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORAppDelegate.m; sourceTree = "<group>"; };
+		D9B4AA0A1706E70A00CC2C6C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D9B4AA0C1706E70A00CC2C6C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D9B4AA0E1706E70A00CC2C6C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D9B4AA111706E70A00CC2C6C /* wordstutorios.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = wordstutorios.xcdatamodel; sourceTree = "<group>"; };
+		D9B4AA181706E70A00CC2C6C /* wordstutoriosTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wordstutoriosTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9B4AA191706E70A00CC2C6C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D9B4AA221706E70A00CC2C6C /* wordstutoriosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wordstutoriosTests-Info.plist"; sourceTree = "<group>"; };
+		D9B4AA241706E70A00CC2C6C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D9B4AA261706E70A00CC2C6C /* wordstutoriosTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wordstutoriosTests.h; sourceTree = "<group>"; };
+		D9B4AA271706E70A00CC2C6C /* wordstutoriosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wordstutoriosTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9B4A9F01706E70900CC2C6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9B4A9F71706E70900CC2C6C /* UIKit.framework in Frameworks */,
+				D9B4A9F91706E70900CC2C6C /* Foundation.framework in Frameworks */,
+				D9B4A9FB1706E70900CC2C6C /* CoreGraphics.framework in Frameworks */,
+				D9B4A9FD1706E70900CC2C6C /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9B4AA141706E70A00CC2C6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9B4AA1A1706E70A00CC2C6C /* SenTestingKit.framework in Frameworks */,
+				D9B4AA1B1706E70A00CC2C6C /* UIKit.framework in Frameworks */,
+				D9B4AA1C1706E70A00CC2C6C /* Foundation.framework in Frameworks */,
+				D9B4AA1D1706E70A00CC2C6C /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9B4A9EA1706E70900CC2C6C = {
+			isa = PBXGroup;
+			children = (
+				D9B4A9FE1706E70900CC2C6C /* wordstutorios */,
+				D9B4AA201706E70A00CC2C6C /* wordstutoriosTests */,
+				D9B4A9F51706E70900CC2C6C /* Frameworks */,
+				D9B4A9F41706E70900CC2C6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9B4A9F41706E70900CC2C6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9B4A9F31706E70900CC2C6C /* wordstutorios.app */,
+				D9B4AA181706E70A00CC2C6C /* wordstutoriosTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9B4A9F51706E70900CC2C6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9B4A9F61706E70900CC2C6C /* UIKit.framework */,
+				D9B4A9F81706E70900CC2C6C /* Foundation.framework */,
+				D9B4A9FA1706E70900CC2C6C /* CoreGraphics.framework */,
+				D9B4A9FC1706E70900CC2C6C /* CoreData.framework */,
+				D9B4AA191706E70A00CC2C6C /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9B4A9FE1706E70900CC2C6C /* wordstutorios */ = {
+			isa = PBXGroup;
+			children = (
+				D9B4AA071706E70A00CC2C6C /* ORAppDelegate.h */,
+				D9B4AA081706E70A00CC2C6C /* ORAppDelegate.m */,
+				D9B4AA101706E70A00CC2C6C /* wordstutorios.xcdatamodeld */,
+				D9B4A9FF1706E70900CC2C6C /* Supporting Files */,
+			);
+			path = wordstutorios;
+			sourceTree = "<group>";
+		};
+		D9B4A9FF1706E70900CC2C6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9B4AA001706E70900CC2C6C /* wordstutorios-Info.plist */,
+				D9B4AA011706E70900CC2C6C /* InfoPlist.strings */,
+				D9B4AA041706E70900CC2C6C /* main.m */,
+				D9B4AA061706E70A00CC2C6C /* wordstutorios-Prefix.pch */,
+				D9B4AA0A1706E70A00CC2C6C /* Default.png */,
+				D9B4AA0C1706E70A00CC2C6C /* Default@2x.png */,
+				D9B4AA0E1706E70A00CC2C6C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9B4AA201706E70A00CC2C6C /* wordstutoriosTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9B4AA261706E70A00CC2C6C /* wordstutoriosTests.h */,
+				D9B4AA271706E70A00CC2C6C /* wordstutoriosTests.m */,
+				D9B4AA211706E70A00CC2C6C /* Supporting Files */,
+			);
+			path = wordstutoriosTests;
+			sourceTree = "<group>";
+		};
+		D9B4AA211706E70A00CC2C6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9B4AA221706E70A00CC2C6C /* wordstutoriosTests-Info.plist */,
+				D9B4AA231706E70A00CC2C6C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9B4A9F21706E70900CC2C6C /* wordstutorios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9B4AA2B1706E70A00CC2C6C /* Build configuration list for PBXNativeTarget "wordstutorios" */;
+			buildPhases = (
+				D9B4A9EF1706E70900CC2C6C /* Sources */,
+				D9B4A9F01706E70900CC2C6C /* Frameworks */,
+				D9B4A9F11706E70900CC2C6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wordstutorios;
+			productName = wordstutorios;
+			productReference = D9B4A9F31706E70900CC2C6C /* wordstutorios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9B4AA171706E70A00CC2C6C /* wordstutoriosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9B4AA2E1706E70A00CC2C6C /* Build configuration list for PBXNativeTarget "wordstutoriosTests" */;
+			buildPhases = (
+				D9B4AA131706E70A00CC2C6C /* Sources */,
+				D9B4AA141706E70A00CC2C6C /* Frameworks */,
+				D9B4AA151706E70A00CC2C6C /* Resources */,
+				D9B4AA161706E70A00CC2C6C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9B4AA1F1706E70A00CC2C6C /* PBXTargetDependency */,
+			);
+			name = wordstutoriosTests;
+			productName = wordstutoriosTests;
+			productReference = D9B4AA181706E70A00CC2C6C /* wordstutoriosTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9B4A9EB1706E70900CC2C6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OR;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = OlegR;
+			};
+			buildConfigurationList = D9B4A9EE1706E70900CC2C6C /* Build configuration list for PBXProject "wordstutorios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D9B4A9EA1706E70900CC2C6C;
+			productRefGroup = D9B4A9F41706E70900CC2C6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9B4A9F21706E70900CC2C6C /* wordstutorios */,
+				D9B4AA171706E70A00CC2C6C /* wordstutoriosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9B4A9F11706E70900CC2C6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9B4AA031706E70900CC2C6C /* InfoPlist.strings in Resources */,
+				D9B4AA0B1706E70A00CC2C6C /* Default.png in Resources */,
+				D9B4AA0D1706E70A00CC2C6C /* Default@2x.png in Resources */,
+				D9B4AA0F1706E70A00CC2C6C /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9B4AA151706E70A00CC2C6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9B4AA251706E70A00CC2C6C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D9B4AA161706E70A00CC2C6C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9B4A9EF1706E70900CC2C6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9B4AA051706E70900CC2C6C /* main.m in Sources */,
+				D9B4AA091706E70A00CC2C6C /* ORAppDelegate.m in Sources */,
+				D9B4AA121706E70A00CC2C6C /* wordstutorios.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9B4AA131706E70A00CC2C6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9B4AA281706E70A00CC2C6C /* wordstutoriosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9B4AA1F1706E70A00CC2C6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9B4A9F21706E70900CC2C6C /* wordstutorios */;
+			targetProxy = D9B4AA1E1706E70A00CC2C6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9B4AA011706E70900CC2C6C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9B4AA021706E70900CC2C6C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D9B4AA231706E70A00CC2C6C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9B4AA241706E70A00CC2C6C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9B4AA291706E70A00CC2C6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9B4AA2A1706E70A00CC2C6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9B4AA2C1706E70A00CC2C6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wordstutorios/wordstutorios-Prefix.pch";
+				INFOPLIST_FILE = "wordstutorios/wordstutorios-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D9B4AA2D1706E70A00CC2C6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wordstutorios/wordstutorios-Prefix.pch";
+				INFOPLIST_FILE = "wordstutorios/wordstutorios-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D9B4AA2F1706E70A00CC2C6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/wordstutorios.app/wordstutorios";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wordstutorios/wordstutorios-Prefix.pch";
+				INFOPLIST_FILE = "wordstutoriosTests/wordstutoriosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D9B4AA301706E70A00CC2C6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/wordstutorios.app/wordstutorios";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wordstutorios/wordstutorios-Prefix.pch";
+				INFOPLIST_FILE = "wordstutoriosTests/wordstutoriosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9B4A9EE1706E70900CC2C6C /* Build configuration list for PBXProject "wordstutorios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9B4AA291706E70A00CC2C6C /* Debug */,
+				D9B4AA2A1706E70A00CC2C6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9B4AA2B1706E70A00CC2C6C /* Build configuration list for PBXNativeTarget "wordstutorios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9B4AA2C1706E70A00CC2C6C /* Debug */,
+				D9B4AA2D1706E70A00CC2C6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D9B4AA2E1706E70A00CC2C6C /* Build configuration list for PBXNativeTarget "wordstutoriosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9B4AA2F1706E70A00CC2C6C /* Debug */,
+				D9B4AA301706E70A00CC2C6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D9B4AA101706E70A00CC2C6C /* wordstutorios.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D9B4AA111706E70A00CC2C6C /* wordstutorios.xcdatamodel */,
+			);
+			currentVersion = D9B4AA111706E70A00CC2C6C /* wordstutorios.xcdatamodel */;
+			path = wordstutorios.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D9B4A9EB1706E70900CC2C6C /* Project object */;
+}
