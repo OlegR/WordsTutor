@@ -6,16 +6,52 @@
 //  Copyright (c) 2013 OlegR. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
 
+/*!
+ @class         ORAppDelegate
+ @abstract      Application delegate.
+ */
 @interface ORAppDelegate : NSObject <NSApplicationDelegate>
+{
+    NSPersistentStoreCoordinator* _persistentStoreCoordinator;
+    NSManagedObjectModel* _managedObjectModel;
+    NSManagedObjectContext* _managedObjectContext;
+}
 
+/*!
+ @property
+ @abstract
+ */
 @property (assign) IBOutlet NSWindow *window;
 
+/*!
+ @property
+ @abstract
+ @discussion
+ */
 @property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
+
+/*!
+ @property
+ @abstract
+ @discussion
+ */
 @property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
+
+/*!
+ @property
+ @abstract
+ @discussion
+ */
 @property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 
+/*!
+ @method
+ @abstract
+ @discussion
+ @param
+ @result
+ */
 - (IBAction)saveAction:(id)sender;
 
 @end
