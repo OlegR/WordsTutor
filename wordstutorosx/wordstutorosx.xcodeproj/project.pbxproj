@@ -13,7 +13,6 @@
 		D9B4AA4E1706E73C00CC2C6C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D9B4AA4C1706E73C00CC2C6C /* Credits.rtf */; };
 		D9B4AA511706E73C00CC2C6C /* ORAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B4AA501706E73C00CC2C6C /* ORAppDelegate.m */; };
 		D9B4AA541706E73C00CC2C6C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9B4AA521706E73C00CC2C6C /* MainMenu.xib */; };
-		D9B4AA571706E73C00CC2C6C /* wordstutorosx.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D9B4AA551706E73C00CC2C6C /* wordstutorosx.xcdatamodeld */; };
 		D9B4AA5F1706E73D00CC2C6C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B4AA5E1706E73D00CC2C6C /* SenTestingKit.framework */; };
 		D9B4AA601706E73D00CC2C6C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B4AA3D1706E73C00CC2C6C /* Cocoa.framework */; };
 		D9B4AA681706E73D00CC2C6C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9B4AA661706E73D00CC2C6C /* InfoPlist.strings */; };
@@ -45,7 +44,6 @@
 		D9B4AA4F1706E73C00CC2C6C /* ORAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORAppDelegate.h; sourceTree = "<group>"; };
 		D9B4AA501706E73C00CC2C6C /* ORAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORAppDelegate.m; sourceTree = "<group>"; };
 		D9B4AA531706E73C00CC2C6C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		D9B4AA561706E73C00CC2C6C /* wordstutorosx.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = wordstutorosx.xcdatamodel; sourceTree = "<group>"; };
 		D9B4AA5D1706E73D00CC2C6C /* wordstutorosxTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wordstutorosxTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9B4AA5E1706E73D00CC2C6C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		D9B4AA651706E73D00CC2C6C /* wordstutorosxTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wordstutorosxTests-Info.plist"; sourceTree = "<group>"; };
@@ -113,9 +111,8 @@
 				D9B4AA4F1706E73C00CC2C6C /* ORAppDelegate.h */,
 				D9B4AA501706E73C00CC2C6C /* ORAppDelegate.m */,
 				D9B4AA521706E73C00CC2C6C /* MainMenu.xib */,
-				D9B4AA551706E73C00CC2C6C /* wordstutorosx.xcdatamodeld */,
-				D9B4AA441706E73C00CC2C6C /* Supporting Files */,
 				D9FE4C721706EA0A0016CED2 /* MainView.xib */,
+				D9B4AA441706E73C00CC2C6C /* Supporting Files */,
 			);
 			path = wordstutorosx;
 			sourceTree = "<group>";
@@ -263,7 +260,6 @@
 			files = (
 				D9B4AA4A1706E73C00CC2C6C /* main.m in Sources */,
 				D9B4AA511706E73C00CC2C6C /* ORAppDelegate.m in Sources */,
-				D9B4AA571706E73C00CC2C6C /* wordstutorosx.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,19 +461,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		D9B4AA551706E73C00CC2C6C /* wordstutorosx.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				D9B4AA561706E73C00CC2C6C /* wordstutorosx.xcdatamodel */,
-			);
-			currentVersion = D9B4AA561706E73C00CC2C6C /* wordstutorosx.xcdatamodel */;
-			path = wordstutorosx.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = D9B4AA321706E73C00CC2C6C /* Project object */;
 }
