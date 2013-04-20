@@ -179,4 +179,21 @@
     return NSTerminateNow;
 }
 
+#pragma mark -
+
+- (IBAction)saveAction:(id)sender
+{
+    NSError *error = nil;
+    
+    if ( ![[self managedObjectContext] commitEditing] )
+    {
+        NSLog(@"%@:%@ unable to commit editing before saving", [self class], NSStringFromSelector(_cmd));
+    }
+    
+    if ( ![[self managedObjectContext] save:&error] )
+    {
+        [[NSApplication sharedApplication] presentError:error];
+    }
+}
+
 @end

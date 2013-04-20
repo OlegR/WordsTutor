@@ -45,13 +45,4 @@
  */
 @property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 
-/*!
- @method
- @abstract
- @discussion
- @param
- @result
- */
-- (IBAction)saveAction:(id)sender;
-
 @end

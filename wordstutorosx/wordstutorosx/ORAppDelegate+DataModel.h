@@ -24,4 +24,13 @@
  */
 - (NSApplicationTerminateReply)saveDataModelWithApplication:(NSApplication*)application;
 
+/*!
+ @method
+ @abstract
+ @discussion
+ @param
+ @result
+ */
+- (IBAction)saveAction:(id)sender;
+
 @end
