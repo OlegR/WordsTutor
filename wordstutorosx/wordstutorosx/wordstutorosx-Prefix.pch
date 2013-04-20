@@ -4,4 +4,8 @@
 
 #ifdef __OBJC__
     #import <Cocoa/Cocoa.h>
+    #import <Foundation/Foundation.h>
+
+    #import "ORLogger.h"
+    #import "ORAppUtils.h"
 #endif
