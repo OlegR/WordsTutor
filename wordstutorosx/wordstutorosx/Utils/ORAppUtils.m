@@ -14,4 +14,14 @@
     return [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleName"];
 }
 
++ (NSString*)appVersionString
+{
+    return [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"];
+}
+
++ (NSString*)appBuildString
+{
+    return [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleVersion"];
+}
+
 @end
