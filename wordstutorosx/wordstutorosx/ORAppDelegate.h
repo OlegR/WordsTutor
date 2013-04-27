@@ -13,9 +13,6 @@
  */
 @interface ORAppDelegate : NSObject <NSApplicationDelegate>
 {
-    NSPersistentStoreCoordinator* _persistentStoreCoordinator;
-    NSManagedObjectModel* _managedObjectModel;
-    NSManagedObjectContext* _managedObjectContext;
 }
 
 /*!
@@ -25,24 +22,12 @@
 @property (assign) IBOutlet NSWindow *window;
 
 /*!
- @property
+ @method
  @abstract
  @discussion
+ @param
+ @result
  */
-@property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
-
-/*!
- @property
- @abstract
- @discussion
- */
-@property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
-
-/*!
- @property
- @abstract
- @discussion
- */
-@property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
+- (IBAction)saveAction:(id)sender;
 
 @end

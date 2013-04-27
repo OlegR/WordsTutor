@@ -19,8 +19,8 @@
 		D9B4AA601706E73D00CC2C6C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B4AA3D1706E73C00CC2C6C /* Cocoa.framework */; };
 		D9B4AA681706E73D00CC2C6C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9B4AA661706E73D00CC2C6C /* InfoPlist.strings */; };
 		D9B4AA6B1706E73D00CC2C6C /* wordstutorosxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B4AA6A1706E73D00CC2C6C /* wordstutorosxTests.m */; };
+		D9BA114B172B94640072ACAC /* ORDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BA114A172B94640072ACAC /* ORDataManager.m */; };
 		D9D652A7171010EC00222B8B /* wordstutorosx.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D9D652A5171010EC00222B8B /* wordstutorosx.xcdatamodeld */; };
-		D9D652AA1710139900222B8B /* ORAppDelegate+DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D652A91710139900222B8B /* ORAppDelegate+DataModel.m */; };
 		D9FE4C731706EA0A0016CED2 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9FE4C721706EA0A0016CED2 /* MainView.xib */; };
 /* End PBXBuildFile section */
 
@@ -58,9 +58,9 @@
 		D9B4AA671706E73D00CC2C6C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D9B4AA691706E73D00CC2C6C /* wordstutorosxTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wordstutorosxTests.h; sourceTree = "<group>"; };
 		D9B4AA6A1706E73D00CC2C6C /* wordstutorosxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wordstutorosxTests.m; sourceTree = "<group>"; };
+		D9BA1149172B94640072ACAC /* ORDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORDataManager.h; path = DataManager/ORDataManager.h; sourceTree = "<group>"; };
+		D9BA114A172B94640072ACAC /* ORDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORDataManager.m; path = DataManager/ORDataManager.m; sourceTree = "<group>"; };
 		D9D652A6171010EC00222B8B /* wordstutorosx.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = wordstutorosx.xcdatamodel; sourceTree = "<group>"; };
-		D9D652A81710139900222B8B /* ORAppDelegate+DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ORAppDelegate+DataModel.h"; sourceTree = "<group>"; };
-		D9D652A91710139900222B8B /* ORAppDelegate+DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ORAppDelegate+DataModel.m"; sourceTree = "<group>"; };
 		D9FE4C721706EA0A0016CED2 /* MainView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,11 +130,10 @@
 		D9B4AA431706E73C00CC2C6C /* wordstutorosx */ = {
 			isa = PBXGroup;
 			children = (
+				D9BA114C172B946A0072ACAC /* DataManager */,
 				D96CB83F1722683D00896F75 /* Utils */,
 				D9B4AA4F1706E73C00CC2C6C /* ORAppDelegate.h */,
 				D9B4AA501706E73C00CC2C6C /* ORAppDelegate.m */,
-				D9D652A81710139900222B8B /* ORAppDelegate+DataModel.h */,
-				D9D652A91710139900222B8B /* ORAppDelegate+DataModel.m */,
 				D9B4AA521706E73C00CC2C6C /* MainMenu.xib */,
 				D9FE4C721706EA0A0016CED2 /* MainView.xib */,
 				D9D652A5171010EC00222B8B /* wordstutorosx.xcdatamodeld */,
@@ -172,6 +171,15 @@
 				D9B4AA661706E73D00CC2C6C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9BA114C172B946A0072ACAC /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				D9BA1149172B94640072ACAC /* ORDataManager.h */,
+				D9BA114A172B94640072ACAC /* ORDataManager.m */,
+			);
+			name = DataManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,9 +295,9 @@
 				D9B4AA4A1706E73C00CC2C6C /* main.m in Sources */,
 				D9B4AA511706E73C00CC2C6C /* ORAppDelegate.m in Sources */,
 				D9D652A7171010EC00222B8B /* wordstutorosx.xcdatamodeld in Sources */,
-				D9D652AA1710139900222B8B /* ORAppDelegate+DataModel.m in Sources */,
 				D96CB8421722687900896F75 /* ORLogger.m in Sources */,
 				D923FD8A1722F4AE00CFCF26 /* ORAppUtils.m in Sources */,
+				D9BA114B172B94640072ACAC /* ORDataManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,15 +7,10 @@
 //
 
 #import "ORAppDelegate.h"
-#import "ORAppDelegate+DataModel.h"
+#import "ORDataManager.h"
 
 
 @implementation ORAppDelegate
-
-@synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
-@synthesize managedObjectModel = _managedObjectModel;
-@synthesize managedObjectContext = _managedObjectContext;
-
 
 #pragma mark - Application delegate notifications
 
@@ -27,14 +22,31 @@
 
 - (NSApplicationTerminateReply)applicationShouldTerminate:(NSApplication *)sender
 {
-    return [self saveDataModelWithApplication:sender];
+    return [[ORDataManager sharedDataManager] saveDataModelWithApplication:sender];
 }
 
 #pragma mark - Main window NSWindowDelegate
 
 - (NSUndoManager *)windowWillReturnUndoManager:(NSWindow *)window
 {
-    return [[self managedObjectContext] undoManager];
+    return [[ORDataManager sharedDataManager].managedObjectContext undoManager];
+}
+
+#pragma mark - Save action
+
+- (IBAction)saveAction:(id)sender
+{
+    if ( [[ORDataManager sharedDataManager].managedObjectContext commitEditing] == NO )
+    {
+        OR_LOG_R(@"Unable to commit editing before saving.");
+    }
+    
+    NSError *error = nil;
+    
+    if ( [[ORDataManager sharedDataManager].managedObjectContext save:&error] == NO )
+    {
+        [[NSApplication sharedApplication] presentError:error];
+    }
 }
 
 @end
