@@ -39,7 +39,7 @@
 		D923FD891722F4AE00CFCF26 /* ORAppUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORAppUtils.m; path = Utils/ORAppUtils.m; sourceTree = "<group>"; };
 		D96CB8401722687900896F75 /* ORLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORLogger.h; path = Utils/ORLogger.h; sourceTree = "<group>"; };
 		D96CB8411722687900896F75 /* ORLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORLogger.m; path = Utils/ORLogger.m; sourceTree = "<group>"; };
-		D9B4AA3A1706E73C00CC2C6C /* wordstutorosx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wordstutorosx.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9B4AA3A1706E73C00CC2C6C /* Words Tutor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Words Tutor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9B4AA3D1706E73C00CC2C6C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		D9B4AA401706E73C00CC2C6C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		D9B4AA411706E73C00CC2C6C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -109,7 +109,7 @@
 		D9B4AA3B1706E73C00CC2C6C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D9B4AA3A1706E73C00CC2C6C /* wordstutorosx.app */,
+				D9B4AA3A1706E73C00CC2C6C /* Words Tutor.app */,
 				D9B4AA5D1706E73D00CC2C6C /* wordstutorosxTests.octest */,
 			);
 			name = Products;
@@ -199,7 +199,7 @@
 			);
 			name = wordstutorosx;
 			productName = wordstutorosx;
-			productReference = D9B4AA3A1706E73C00CC2C6C /* wordstutorosx.app */;
+			productReference = D9B4AA3A1706E73C00CC2C6C /* Words Tutor.app */;
 			productType = "com.apple.product-type.application";
 		};
 		D9B4AA5C1706E73D00CC2C6C /* wordstutorosxTests */ = {
@@ -389,7 +389,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "wordstutorosx/wordstutorosx-Prefix.pch";
 				INFOPLIST_FILE = "wordstutorosx/wordstutorosx-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Words Tutor";
 				WRAPPER_EXTENSION = app;
 			};
 			name = AdHoc;
@@ -473,7 +473,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "wordstutorosx/wordstutorosx-Prefix.pch";
 				INFOPLIST_FILE = "wordstutorosx/wordstutorosx-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Words Tutor";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -485,7 +485,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "wordstutorosx/wordstutorosx-Prefix.pch";
 				INFOPLIST_FILE = "wordstutorosx/wordstutorosx-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Words Tutor";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
