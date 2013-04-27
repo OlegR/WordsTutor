@@ -14,6 +14,13 @@
 @interface ORAppUtils : NSObject
 
 /*!
+ @method        appFilesDirectory
+ @abstract      Returns application directory URL.
+ @result        appFilesDirectory NSURL files directory.
+ */
++ (NSURL*)appFilesDirectory;
+
+/*!
  @method        appNameString
  @abstract      Returns the application bundle name string.
  @result        appNameString App name string.
@@ -33,5 +40,12 @@
  @result        appBuildString App build string.
  */
 + (NSString*)appBuildString;
+
+/*!
+ @property      appBundleIdentifier
+ @abstract      Returns the application bundle identifier.
+ @discussion    appBundleIdentifier App bundle identifier string.
+ */
++ (NSString*)appBundleIdentifier;
 
 @end
