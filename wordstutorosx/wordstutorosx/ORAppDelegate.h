@@ -16,15 +16,14 @@
 }
 
 /*!
- @property
- @abstract
+ @property      window
+ @abstract      Main window outlet.
  */
 @property (assign) IBOutlet NSWindow *window;
 
 /*!
- @method
+ @method        saveAction
  @abstract
- @discussion
  @param
  @result
  */
