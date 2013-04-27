@@ -33,7 +33,7 @@
     NSString* logSubFolderNameString = [ORAppUtils appNameString];
     NSString* logFolderNameString = [pathDirectory stringByAppendingPathComponent:logSubFolderNameString];
     
-    if ( [logSubFolderNameString length] )
+    if ( [logFolderNameString length] )
     {
         [[NSFileManager defaultManager] createDirectoryAtPath:logFolderNameString withIntermediateDirectories:YES attributes:nil error:nil];
     }
