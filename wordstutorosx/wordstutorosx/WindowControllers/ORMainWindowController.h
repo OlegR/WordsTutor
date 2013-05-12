@@ -6,8 +6,11 @@
 //  Copyright (c) 2013 OlegR. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
 
+/*!
+ @class         ORMainWindowController
+ @abstract      The main window's controller.
+ */
 @interface ORMainWindowController : NSWindowController
 
 @end

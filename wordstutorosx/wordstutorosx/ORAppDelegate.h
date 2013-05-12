@@ -7,19 +7,17 @@
 //
 
 
+@class ORMainWindowController;
+
+
 /*!
  @class         ORAppDelegate
  @abstract      Application delegate.
  */
 @interface ORAppDelegate : NSObject <NSApplicationDelegate>
 {
+    ORMainWindowController* mainWindowController;
 }
-
-/*!
- @property      window
- @abstract      Main window outlet.
- */
-@property (assign) IBOutlet NSWindow *window;
 
 /*!
  @method        saveAction

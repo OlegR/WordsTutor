@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D9B4AA391706E73C00CC2C6C"
-               BuildableName = "wordstutorosx.app"
+               BuildableName = "Words Tutor.app"
                BlueprintName = "wordstutorosx"
                ReferencedContainer = "container:wordstutorosx.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D9B4AA391706E73C00CC2C6C"
-            BuildableName = "wordstutorosx.app"
+            BuildableName = "Words Tutor.app"
             BlueprintName = "wordstutorosx"
             ReferencedContainer = "container:wordstutorosx.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D9B4AA391706E73C00CC2C6C"
-            BuildableName = "wordstutorosx.app"
+            BuildableName = "Words Tutor.app"
             BlueprintName = "wordstutorosx"
             ReferencedContainer = "container:wordstutorosx.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D9B4AA391706E73C00CC2C6C"
-            BuildableName = "wordstutorosx.app"
+            BuildableName = "Words Tutor.app"
             BlueprintName = "wordstutorosx"
             ReferencedContainer = "container:wordstutorosx.xcodeproj">
          </BuildableReference>

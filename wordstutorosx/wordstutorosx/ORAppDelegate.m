@@ -8,6 +8,7 @@
 
 #import "ORAppDelegate.h"
 #import "ORDataManager.h"
+#import "ORMainWindowController.h"
 
 
 @implementation ORAppDelegate
@@ -18,6 +19,9 @@
 {
     [ORLogger redirectLogToFile];
     OR_LOG_R(@"Version: %@. Build: %@.", [ORAppUtils appVersionString], [ORAppUtils appBuildString]);
+    
+    mainWindowController = [[ORMainWindowController alloc] initWithWindowNibName:@"ORMainWindowController"];
+    [mainWindowController showWindow:self];
 }
 
 - (NSApplicationTerminateReply)applicationShouldTerminate:(NSApplication *)sender

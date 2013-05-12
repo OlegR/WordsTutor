@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		D923FD8A1722F4AE00CFCF26 /* ORAppUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D923FD891722F4AE00CFCF26 /* ORAppUtils.m */; };
 		D96CB8421722687900896F75 /* ORLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = D96CB8411722687900896F75 /* ORLogger.m */; };
+		D98979BF173E2EC300F75C1C /* ORMainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D98979BD173E2EC300F75C1C /* ORMainWindowController.m */; };
+		D98979C0173E2EC300F75C1C /* ORMainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D98979BE173E2EC300F75C1C /* ORMainWindowController.xib */; };
 		D9B4AA3E1706E73C00CC2C6C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B4AA3D1706E73C00CC2C6C /* Cocoa.framework */; };
 		D9B4AA481706E73C00CC2C6C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9B4AA461706E73C00CC2C6C /* InfoPlist.strings */; };
 		D9B4AA4A1706E73C00CC2C6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B4AA491706E73C00CC2C6C /* main.m */; };
@@ -21,7 +23,6 @@
 		D9B4AA6B1706E73D00CC2C6C /* wordstutorosxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B4AA6A1706E73D00CC2C6C /* wordstutorosxTests.m */; };
 		D9BA114B172B94640072ACAC /* ORDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BA114A172B94640072ACAC /* ORDataManager.m */; };
 		D9D652A7171010EC00222B8B /* wordstutorosx.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D9D652A5171010EC00222B8B /* wordstutorosx.xcdatamodeld */; };
-		D9FE4C731706EA0A0016CED2 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9FE4C721706EA0A0016CED2 /* MainView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,9 @@
 		D923FD891722F4AE00CFCF26 /* ORAppUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORAppUtils.m; path = Utils/ORAppUtils.m; sourceTree = "<group>"; };
 		D96CB8401722687900896F75 /* ORLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORLogger.h; path = Utils/ORLogger.h; sourceTree = "<group>"; };
 		D96CB8411722687900896F75 /* ORLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORLogger.m; path = Utils/ORLogger.m; sourceTree = "<group>"; };
+		D98979BC173E2EC300F75C1C /* ORMainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORMainWindowController.h; path = WindowControllers/ORMainWindowController.h; sourceTree = "<group>"; };
+		D98979BD173E2EC300F75C1C /* ORMainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORMainWindowController.m; path = WindowControllers/ORMainWindowController.m; sourceTree = "<group>"; };
+		D98979BE173E2EC300F75C1C /* ORMainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ORMainWindowController.xib; path = WindowControllers/ORMainWindowController.xib; sourceTree = "<group>"; };
 		D9B4AA3A1706E73C00CC2C6C /* Words Tutor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Words Tutor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9B4AA3D1706E73C00CC2C6C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		D9B4AA401706E73C00CC2C6C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -61,7 +65,6 @@
 		D9BA1149172B94640072ACAC /* ORDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORDataManager.h; path = DataManager/ORDataManager.h; sourceTree = "<group>"; };
 		D9BA114A172B94640072ACAC /* ORDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORDataManager.m; path = DataManager/ORDataManager.m; sourceTree = "<group>"; };
 		D9D652A6171010EC00222B8B /* wordstutorosx.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = wordstutorosx.xcdatamodel; sourceTree = "<group>"; };
-		D9FE4C721706EA0A0016CED2 /* MainView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,23 @@
 				D923FD891722F4AE00CFCF26 /* ORAppUtils.m */,
 			);
 			name = Utils;
+			sourceTree = "<group>";
+		};
+		D98979BA173E2D2B00F75C1C /* Window controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D98979BC173E2EC300F75C1C /* ORMainWindowController.h */,
+				D98979BD173E2EC300F75C1C /* ORMainWindowController.m */,
+				D98979BE173E2EC300F75C1C /* ORMainWindowController.xib */,
+			);
+			name = "Window controllers";
+			sourceTree = "<group>";
+		};
+		D98979BB173E2D3E00F75C1C /* View controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "View controllers";
 			sourceTree = "<group>";
 		};
 		D9B4AA311706E73C00CC2C6C = {
@@ -130,14 +150,15 @@
 		D9B4AA431706E73C00CC2C6C /* wordstutorosx */ = {
 			isa = PBXGroup;
 			children = (
+				D98979BB173E2D3E00F75C1C /* View controllers */,
+				D98979BA173E2D2B00F75C1C /* Window controllers */,
 				D9BA114C172B946A0072ACAC /* DataManager */,
 				D96CB83F1722683D00896F75 /* Utils */,
+				D9B4AA441706E73C00CC2C6C /* Supporting Files */,
 				D9B4AA4F1706E73C00CC2C6C /* ORAppDelegate.h */,
 				D9B4AA501706E73C00CC2C6C /* ORAppDelegate.m */,
 				D9B4AA521706E73C00CC2C6C /* MainMenu.xib */,
-				D9FE4C721706EA0A0016CED2 /* MainView.xib */,
 				D9D652A5171010EC00222B8B /* wordstutorosx.xcdatamodeld */,
-				D9B4AA441706E73C00CC2C6C /* Supporting Files */,
 			);
 			path = wordstutorosx;
 			sourceTree = "<group>";
@@ -257,7 +278,7 @@
 				D9B4AA481706E73C00CC2C6C /* InfoPlist.strings in Resources */,
 				D9B4AA4E1706E73C00CC2C6C /* Credits.rtf in Resources */,
 				D9B4AA541706E73C00CC2C6C /* MainMenu.xib in Resources */,
-				D9FE4C731706EA0A0016CED2 /* MainView.xib in Resources */,
+				D98979C0173E2EC300F75C1C /* ORMainWindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +319,7 @@
 				D96CB8421722687900896F75 /* ORLogger.m in Sources */,
 				D923FD8A1722F4AE00CFCF26 /* ORAppUtils.m in Sources */,
 				D9BA114B172B94640072ACAC /* ORDataManager.m in Sources */,
+				D98979BF173E2EC300F75C1C /* ORMainWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
