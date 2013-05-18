@@ -103,7 +103,7 @@ const NSUInteger ORExpectedFolderStoreAppDataErrorCode = 10001;
     }
     
     NSFileManager *fileManager = [NSFileManager defaultManager];
-    NSURL *applicationFilesDirectory = [ORAppUtils appFilesDirectory];
+    NSURL *applicationFilesDirectory = [ORApp applicationSupportDirectoryURL];
     NSError *error = nil;
     
     NSDictionary *properties = [applicationFilesDirectory resourceValuesForKeys:@[NSURLIsDirectoryKey] error:&error];

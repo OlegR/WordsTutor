@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D923FD8A1722F4AE00CFCF26 /* ORAppUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D923FD891722F4AE00CFCF26 /* ORAppUtils.m */; };
+		D923FD8A1722F4AE00CFCF26 /* ORApp.m in Sources */ = {isa = PBXBuildFile; fileRef = D923FD891722F4AE00CFCF26 /* ORApp.m */; };
+		D9313A691743BDD00036BD2D /* ORPlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = D9313A681743BDD00036BD2D /* ORPlatform.m */; };
 		D96CB8421722687900896F75 /* ORLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = D96CB8411722687900896F75 /* ORLogger.m */; };
 		D98979BF173E2EC300F75C1C /* ORMainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D98979BD173E2EC300F75C1C /* ORMainWindowController.m */; };
 		D98979C0173E2EC300F75C1C /* ORMainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D98979BE173E2EC300F75C1C /* ORMainWindowController.xib */; };
@@ -36,8 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D923FD881722F4AE00CFCF26 /* ORAppUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORAppUtils.h; path = Utils/ORAppUtils.h; sourceTree = "<group>"; };
-		D923FD891722F4AE00CFCF26 /* ORAppUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORAppUtils.m; path = Utils/ORAppUtils.m; sourceTree = "<group>"; };
+		D923FD881722F4AE00CFCF26 /* ORApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORApp.h; path = Utils/ORApp.h; sourceTree = "<group>"; };
+		D923FD891722F4AE00CFCF26 /* ORApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORApp.m; path = Utils/ORApp.m; sourceTree = "<group>"; };
+		D9313A671743BDD00036BD2D /* ORPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORPlatform.h; path = Utils/ORPlatform.h; sourceTree = "<group>"; };
+		D9313A681743BDD00036BD2D /* ORPlatform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORPlatform.m; path = Utils/ORPlatform.m; sourceTree = "<group>"; };
 		D96CB8401722687900896F75 /* ORLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORLogger.h; path = Utils/ORLogger.h; sourceTree = "<group>"; };
 		D96CB8411722687900896F75 /* ORLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORLogger.m; path = Utils/ORLogger.m; sourceTree = "<group>"; };
 		D98979BC173E2EC300F75C1C /* ORMainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORMainWindowController.h; path = WindowControllers/ORMainWindowController.h; sourceTree = "<group>"; };
@@ -93,8 +96,10 @@
 			children = (
 				D96CB8401722687900896F75 /* ORLogger.h */,
 				D96CB8411722687900896F75 /* ORLogger.m */,
-				D923FD881722F4AE00CFCF26 /* ORAppUtils.h */,
-				D923FD891722F4AE00CFCF26 /* ORAppUtils.m */,
+				D923FD881722F4AE00CFCF26 /* ORApp.h */,
+				D923FD891722F4AE00CFCF26 /* ORApp.m */,
+				D9313A671743BDD00036BD2D /* ORPlatform.h */,
+				D9313A681743BDD00036BD2D /* ORPlatform.m */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -317,9 +322,10 @@
 				D9B4AA511706E73C00CC2C6C /* ORAppDelegate.m in Sources */,
 				D9D652A7171010EC00222B8B /* wordstutorosx.xcdatamodeld in Sources */,
 				D96CB8421722687900896F75 /* ORLogger.m in Sources */,
-				D923FD8A1722F4AE00CFCF26 /* ORAppUtils.m in Sources */,
+				D923FD8A1722F4AE00CFCF26 /* ORApp.m in Sources */,
 				D9BA114B172B94640072ACAC /* ORDataManager.m in Sources */,
 				D98979BF173E2EC300F75C1C /* ORMainWindowController.m in Sources */,
+				D9313A691743BDD00036BD2D /* ORPlatform.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

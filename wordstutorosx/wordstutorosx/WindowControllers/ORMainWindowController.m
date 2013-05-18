@@ -15,7 +15,7 @@
 {
     [super windowDidLoad];
     
-    self.window.title = [ORAppUtils appNameString];
+    self.window.title = [ORApp bundleName];
 }
 
 @end
