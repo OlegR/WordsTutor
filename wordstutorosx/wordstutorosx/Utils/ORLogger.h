@@ -41,4 +41,11 @@
  */
 + (void)redirectLogToFile;
 
+/*!
+ @method        logAppInfo
+ @abstract      Logs application info.
+ @result        void
+ */
++ (void)logAppInfo;
+
 @end

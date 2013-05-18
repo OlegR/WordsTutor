@@ -11,7 +11,7 @@
 
 #pragma mark - Log file path
 
-+ (NSString*)logPathDirectoryString
++ (NSString*)logDirectoryString
 {
 #if defined DEBUG
     NSSearchPathDirectory searchPathDirectory = -1;
@@ -22,15 +22,15 @@
 #endif
     
     NSArray *paths = NSSearchPathForDirectoriesInDomains(searchPathDirectory, NSUserDomainMask, YES);
-    NSString *pathDirectory = [paths count] ? [paths objectAtIndex:0] : nil;
+    NSString *logDirectoryString = [paths count] ? [paths objectAtIndex:0] : nil;
     
-    return pathDirectory;
+    return logDirectoryString;
 }
 
 + (NSString*)logFilePathString
 {
-    NSString* pathDirectory = [ORLogger logPathDirectoryString];    
-    NSString* logSubFolderNameString = [ORAppUtils appNameString];
+    NSString* pathDirectory = [ORLogger logDirectoryString];    
+    NSString* logSubFolderNameString = [ORApp bundleName];
     NSString* logFolderNameString = [pathDirectory stringByAppendingPathComponent:logSubFolderNameString];
     
     if ( [logFolderNameString length] )
@@ -38,7 +38,7 @@
         [[NSFileManager defaultManager] createDirectoryAtPath:logFolderNameString withIntermediateDirectories:YES attributes:nil error:nil];
     }
     
-    NSString* logFileNameString = [ORAppUtils appNameString];
+    NSString* logFileNameString = [ORApp bundleName];
     NSString* logFilePathWithoutExtensionString = [logFolderNameString stringByAppendingPathComponent:logFileNameString];
     NSString* logFilePathString = [logFilePathWithoutExtensionString stringByAppendingPathExtension:@"log"];
     
@@ -55,6 +55,13 @@
     {
         freopen([logFilePathString UTF8String], "w", stderr);
     }
+}
+
+#pragma mark - Logs
+
++ (void)logAppInfo
+{
+    OR_LOG_R(@"Version: %@. Build: %@.", [ORApp versionString], [ORApp buildString]);
 }
 
 @end
