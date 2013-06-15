@@ -6,7 +6,6 @@
 //  Copyright (c) 2013 OlegR. All rights reserved.
 //
 
-
 @class ORMainWindowController;
 
 
@@ -16,7 +15,7 @@
  */
 @interface ORAppDelegate : NSObject <NSApplicationDelegate>
 {
-    ORMainWindowController* mainWindowController;
+    ORMainWindowController* _mainWindowController;
 }
 
 /*!

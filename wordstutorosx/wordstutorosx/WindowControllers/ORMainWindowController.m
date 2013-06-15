@@ -7,6 +7,7 @@
 //
 
 #import "ORMainWindowController.h"
+#import "ORLearnWordsViewController.h"
 
 
 @implementation ORMainWindowController
@@ -16,6 +17,12 @@
     [super windowDidLoad];
     
     self.window.title = [ORApp bundleName];
+    
+    _learnWordsViewController = [ORLearnWordsViewController learnWordsViewController];
+    
+    [self.window setContentView:_learnWordsViewController.view];
+    
+    
 }
 
 @end

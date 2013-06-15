@@ -7,7 +7,7 @@
     #import <Cocoa/Cocoa.h>
     #import <Foundation/Foundation.h>
 
-    #import "ORLogger.h"
+    #import "ORLog.h"
     #import "ORApp.h"
     #import "ORPlatform.h"
 

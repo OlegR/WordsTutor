@@ -17,11 +17,11 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    [ORLogger redirectLogToFile];
-    [ORLogger logAppInfo];
+    [ORLog redirectLogToFile];
+    [ORLog logAppInfo];
     
-    mainWindowController = [[ORMainWindowController alloc] initWithWindowNibName:@"ORMainWindowController"];
-    [mainWindowController showWindow:self];
+    _mainWindowController = [[ORMainWindowController alloc] initWithWindowNibName:@"ORMainWindowController"];
+    [_mainWindowController showWindow:self];
 }
 
 - (NSApplicationTerminateReply)applicationShouldTerminate:(NSApplication *)sender
@@ -42,7 +42,7 @@
 {
     if ( [[ORDataManager sharedDataManager].managedObjectContext commitEditing] == NO )
     {
-        OR_LOG_R(@"Unable to commit editing before saving.");
+        LOG_R(@"Unable to commit editing before saving.");
     }
     
     NSError *error = nil;

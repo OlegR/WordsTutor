@@ -98,7 +98,7 @@ const NSUInteger ORExpectedFolderStoreAppDataErrorCode = 10001;
     
     if ( self.managedObjectModel == nil )
     {
-        OR_LOG_R(@"No model to generate a store from.");
+        LOG_R(@"No model to generate a store from.");
         return nil;
     }
     
@@ -164,7 +164,7 @@ const NSUInteger ORExpectedFolderStoreAppDataErrorCode = 10001;
     
     if ( [self.managedObjectContext commitEditing] == NO )
     {
-        OR_LOG_R(@"Unable to commit editing to terminate");
+        LOG_R(@"Unable to commit editing to terminate");
         return NSTerminateCancel;
     }
     
