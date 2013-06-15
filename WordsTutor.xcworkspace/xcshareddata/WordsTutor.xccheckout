@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7BE77D15-36C3-4876-807C-F64C3F7117F1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>WordsTutor</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E193F4B5-4913-4D27-9274-C5011E89F7D1</key>
+		<string>https://github.com/OlegR/WordsTutor.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>WordsTutor.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E193F4B5-4913-4D27-9274-C5011E89F7D1</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/OlegR/WordsTutor.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E193F4B5-4913-4D27-9274-C5011E89F7D1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E193F4B5-4913-4D27-9274-C5011E89F7D1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>WordsTutor</string>
+		</dict>
+	</array>
+</dict>
+</plist>
