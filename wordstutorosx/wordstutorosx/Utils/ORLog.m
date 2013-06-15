@@ -1,5 +1,5 @@
 //
-//  ORLogger.m
+//  ORLog.m
 //  wordstutorosx
 //
 //  Created by OlegR on 20.04.13.
@@ -7,7 +7,7 @@
 //
 
 
-@implementation ORLogger
+@implementation ORLog
 
 #pragma mark - Log file path
 
@@ -29,7 +29,7 @@
 
 + (NSString*)logFilePathString
 {
-    NSString* pathDirectory = [ORLogger logDirectoryString];    
+    NSString* pathDirectory = [ORLog logDirectoryString];    
     NSString* logSubFolderNameString = [ORApp bundleName];
     NSString* logFolderNameString = [pathDirectory stringByAppendingPathComponent:logSubFolderNameString];
     
@@ -49,7 +49,7 @@
 
 + (void)redirectLogToFile
 {
-    NSString* logFilePathString = [ORLogger logFilePathString];
+    NSString* logFilePathString = [ORLog logFilePathString];
     
     if ( [logFilePathString length] )
     {
@@ -61,7 +61,7 @@
 
 + (void)logAppInfo
 {
-    OR_LOG_R(@"Version: %@. Build: %@.", [ORApp versionString], [ORApp buildString]);
+    LOG_R(@"Version: %@. Build: %@.", [ORApp versionString], [ORApp buildString]);
 }
 
 @end
