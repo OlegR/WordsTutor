@@ -9,14 +9,22 @@
 
 /*!
  @class         ORLearnWordsViewController
- @abstract
+ @abstract      Imlements controller to learn words.
  */
 @interface ORLearnWordsViewController : NSViewController
+{
+    IBOutlet NSTextField *_wordToLearnTextField;
+    IBOutlet NSTextField *_wordEnteredToCheckTextField;
+    IBOutlet NSButton *_checkWordButton;
+    IBOutlet NSTextField *_correctTranslationTextField;
+    IBOutlet NSTextField *_otherLanguagesTranslationsTextField;
+    IBOutlet NSButton *_nextWordButton;
+}
 
 /*!
  @method        learnWordsViewController
- @abstract
- @result
+ @abstract      Factory method creates ORLearnWordsViewController instance.
+ @result        ORLearnWordsViewController instance.
  */
 + (ORLearnWordsViewController*)learnWordsViewController;
 

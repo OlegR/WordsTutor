@@ -18,4 +18,14 @@
     return [[ORLearnWordsViewController alloc] initWithNibName:@"ORLearnWordsViewController" bundle:nil];
 }
 
+#pragma mark - Actions
+
+- (IBAction)checkWordButtonAction:(id)sender
+{
+}
+
+- (IBAction)nextWordButtonAction:(id)sender
+{
+}
+
 @end
