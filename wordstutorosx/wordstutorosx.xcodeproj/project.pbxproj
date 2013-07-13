@@ -12,19 +12,15 @@
 		D96CB8421722687900896F75 /* ORLog.m in Sources */ = {isa = PBXBuildFile; fileRef = D96CB8411722687900896F75 /* ORLog.m */; };
 		D98979BF173E2EC300F75C1C /* ORMainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D98979BD173E2EC300F75C1C /* ORMainWindowController.m */; };
 		D98979C0173E2EC300F75C1C /* ORMainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D98979BE173E2EC300F75C1C /* ORMainWindowController.xib */; };
-		D9B4AA3E1706E73C00CC2C6C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B4AA3D1706E73C00CC2C6C /* Cocoa.framework */; };
 		D9B4AA481706E73C00CC2C6C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9B4AA461706E73C00CC2C6C /* InfoPlist.strings */; };
 		D9B4AA4A1706E73C00CC2C6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B4AA491706E73C00CC2C6C /* main.m */; };
 		D9B4AA4E1706E73C00CC2C6C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D9B4AA4C1706E73C00CC2C6C /* Credits.rtf */; };
 		D9B4AA511706E73C00CC2C6C /* ORAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B4AA501706E73C00CC2C6C /* ORAppDelegate.m */; };
 		D9B4AA541706E73C00CC2C6C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9B4AA521706E73C00CC2C6C /* MainMenu.xib */; };
-		D9B4AA5F1706E73D00CC2C6C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B4AA5E1706E73D00CC2C6C /* SenTestingKit.framework */; };
-		D9B4AA601706E73D00CC2C6C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B4AA3D1706E73C00CC2C6C /* Cocoa.framework */; };
 		D9B4AA681706E73D00CC2C6C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9B4AA661706E73D00CC2C6C /* InfoPlist.strings */; };
 		D9B4AA6B1706E73D00CC2C6C /* wordstutorosxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B4AA6A1706E73D00CC2C6C /* wordstutorosxTests.m */; };
 		D9BA114B172B94640072ACAC /* ORDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BA114A172B94640072ACAC /* ORDataManager.m */; };
 		D9D652A7171010EC00222B8B /* wordstutorosx.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D9D652A5171010EC00222B8B /* wordstutorosx.xcdatamodeld */; };
-		D9EF39EA17758B4100C126A7 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EF39E917758B4100C126A7 /* Quartz.framework */; };
 		D9F7B0B71747735300C216F5 /* ORLearnWordsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F7B0B51747735300C216F5 /* ORLearnWordsViewController.m */; };
 		D9F7B0B81747735300C216F5 /* ORLearnWordsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9F7B0B61747735300C216F5 /* ORLearnWordsViewController.xib */; };
 /* End PBXBuildFile section */
@@ -50,10 +46,6 @@
 		D98979BD173E2EC300F75C1C /* ORMainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORMainWindowController.m; path = WindowControllers/ORMainWindowController.m; sourceTree = "<group>"; };
 		D98979BE173E2EC300F75C1C /* ORMainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ORMainWindowController.xib; path = WindowControllers/ORMainWindowController.xib; sourceTree = "<group>"; };
 		D9B4AA3A1706E73C00CC2C6C /* Words Tutor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Words Tutor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9B4AA3D1706E73C00CC2C6C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		D9B4AA401706E73C00CC2C6C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		D9B4AA411706E73C00CC2C6C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		D9B4AA421706E73C00CC2C6C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D9B4AA451706E73C00CC2C6C /* wordstutorosx-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wordstutorosx-Info.plist"; sourceTree = "<group>"; };
 		D9B4AA471706E73C00CC2C6C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D9B4AA491706E73C00CC2C6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -63,7 +55,6 @@
 		D9B4AA501706E73C00CC2C6C /* ORAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORAppDelegate.m; sourceTree = "<group>"; };
 		D9B4AA531706E73C00CC2C6C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		D9B4AA5D1706E73D00CC2C6C /* wordstutorosxTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wordstutorosxTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9B4AA5E1706E73D00CC2C6C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		D9B4AA651706E73D00CC2C6C /* wordstutorosxTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wordstutorosxTests-Info.plist"; sourceTree = "<group>"; };
 		D9B4AA671706E73D00CC2C6C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D9B4AA691706E73D00CC2C6C /* wordstutorosxTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wordstutorosxTests.h; sourceTree = "<group>"; };
@@ -71,7 +62,6 @@
 		D9BA1149172B94640072ACAC /* ORDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORDataManager.h; path = DataManager/ORDataManager.h; sourceTree = "<group>"; };
 		D9BA114A172B94640072ACAC /* ORDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORDataManager.m; path = DataManager/ORDataManager.m; sourceTree = "<group>"; };
 		D9D652A6171010EC00222B8B /* wordstutorosx.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = wordstutorosx.xcdatamodel; sourceTree = "<group>"; };
-		D9EF39E917758B4100C126A7 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
 		D9F7B0B41747735300C216F5 /* ORLearnWordsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORLearnWordsViewController.h; path = ViewControllers/ORLearnWordsViewController.h; sourceTree = "<group>"; };
 		D9F7B0B51747735300C216F5 /* ORLearnWordsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORLearnWordsViewController.m; path = ViewControllers/ORLearnWordsViewController.m; sourceTree = "<group>"; };
 		D9F7B0B61747735300C216F5 /* ORLearnWordsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ORLearnWordsViewController.xib; path = ViewControllers/ORLearnWordsViewController.xib; sourceTree = "<group>"; };
@@ -82,8 +72,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9EF39EA17758B4100C126A7 /* Quartz.framework in Frameworks */,
-				D9B4AA3E1706E73C00CC2C6C /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,8 +79,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9B4AA5F1706E73D00CC2C6C /* SenTestingKit.framework in Frameworks */,
-				D9B4AA601706E73D00CC2C6C /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,12 +140,6 @@
 		D9B4AA3C1706E73C00CC2C6C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D9EF39E917758B4100C126A7 /* Quartz.framework */,
-				D9B4AA401706E73C00CC2C6C /* AppKit.framework */,
-				D9B4AA411706E73C00CC2C6C /* CoreData.framework */,
-				D9B4AA421706E73C00CC2C6C /* Foundation.framework */,
-				D9B4AA3D1706E73C00CC2C6C /* Cocoa.framework */,
-				D9B4AA5E1706E73D00CC2C6C /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -426,10 +406,12 @@
 		D96CB844172268E000896F75 /* AdHoc */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "wordstutorosx/wordstutorosx-Prefix.pch";
 				INFOPLIST_FILE = "wordstutorosx/wordstutorosx-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "Words Tutor";
 				WRAPPER_EXTENSION = app;
 			};
@@ -508,10 +490,12 @@
 		D9B4AA6F1706E73D00CC2C6C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "wordstutorosx/wordstutorosx-Prefix.pch";
 				INFOPLIST_FILE = "wordstutorosx/wordstutorosx-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "Words Tutor";
 				WRAPPER_EXTENSION = app;
 			};
@@ -520,10 +504,12 @@
 		D9B4AA701706E73D00CC2C6C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "wordstutorosx/wordstutorosx-Prefix.pch";
 				INFOPLIST_FILE = "wordstutorosx/wordstutorosx-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "Words Tutor";
 				WRAPPER_EXTENSION = app;
 			};

@@ -4,11 +4,10 @@
 
 #ifdef __OBJC__
 
-    #import <Cocoa/Cocoa.h>
-    #import <Foundation/Foundation.h>
+    @import Cocoa;
 
     #import "ORLog.h"
     #import "ORApp.h"
     #import "ORPlatform.h"
-
+    
 #endif
