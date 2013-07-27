@@ -19,6 +19,8 @@
     #define LOG_A(...);
     #define LOG_R(...);
 
+#elif defined TESTFLIGHT_LOG
+
 #elif defined DEBUG
 
     #define LOG_E(...);
