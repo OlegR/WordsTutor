@@ -8,6 +8,17 @@
 
 
 /*!
+ @enum          ORLearnWordsViewControllerState
+ @abstract      The states of the ORLearnWordsViewController.
+ */
+typedef NS_ENUM(NSInteger, ORLearnWordsViewControllerState)
+{
+    ORLearnWordsViewControllerStateCheckWord,
+    ORLearnWordsViewControllerStateNextWord
+};
+
+
+/*!
  @class         ORLearnWordsViewController
  @abstract      Imlements controller to learn words.
  */

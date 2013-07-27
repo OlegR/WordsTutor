@@ -9,13 +9,6 @@
 #import "ORLearnWordsViewController.h"
 
 
-typedef NS_ENUM(NSInteger, ORLearnWordsViewControllerState)
-{
-    ORLearnWordsViewControllerStateCheckWord,
-    ORLearnWordsViewControllerStateNextWord
-};
-
-
 @implementation ORLearnWordsViewController
 
 #pragma mark - 
