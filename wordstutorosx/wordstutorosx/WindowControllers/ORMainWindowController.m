@@ -21,8 +21,6 @@
     _learnWordsViewController = [ORLearnWordsViewController learnWordsViewController];
     
     [self.window setContentView:_learnWordsViewController.view];
-    
-    
 }
 
 @end
