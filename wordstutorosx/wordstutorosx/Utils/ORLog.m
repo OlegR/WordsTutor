@@ -6,6 +6,8 @@
 //  Copyright (c) 2013 OlegR. All rights reserved.
 //
 
+#import "ORLog.h"
+
 
 @implementation ORLog
 

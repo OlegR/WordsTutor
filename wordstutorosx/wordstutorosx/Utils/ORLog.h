@@ -6,11 +6,6 @@
 //  Copyright (c) 2013 OlegR. All rights reserved.
 //
 
-/*!
- @define        EXCLUSIVE_LOG
- @abstract      Turns off all logs and turns on exclusive log to debug some special case.
- */
-//#define EXCLUSIVE_LOG
 
 #ifdef EXCLUSIVE_LOG
 
