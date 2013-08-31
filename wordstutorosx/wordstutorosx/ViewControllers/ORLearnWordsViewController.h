@@ -11,7 +11,7 @@
  @enum          ORLearnWordsViewControllerState
  @abstract      The states of the ORLearnWordsViewController.
  */
-typedef NS_ENUM(NSInteger, ORLearnWordsViewControllerState)
+typedef NS_ENUM(NSUInteger, ORLearnWordsViewControllerState)
 {
     ORLearnWordsViewControllerStateCheckWord,
     ORLearnWordsViewControllerStateNextWord
