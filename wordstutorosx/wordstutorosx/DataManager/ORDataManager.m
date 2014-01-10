@@ -11,12 +11,14 @@
 
 @implementation ORDataManager
 
+
 #pragma mark - Constants
 
 NSString* const ORDataManagerDomain = @"ORDataManagerDomain";
 
 const NSUInteger ORFailedInitializeStoreErrorCode = 10000;
 const NSUInteger ORExpectedFolderStoreAppDataErrorCode = 10001;
+
 
 #pragma mark - Singleton
 
@@ -26,9 +28,10 @@ const NSUInteger ORExpectedFolderStoreAppDataErrorCode = 10001;
     
     static dispatch_once_t dispatchOncePointer = 0;
     
-    dispatch_once(&dispatchOncePointer, ^{
-        _sharedDataManager = [[super allocWithZone:NULL] init];
-    });
+    dispatch_once ( &dispatchOncePointer,
+                   ^{
+                       _sharedDataManager = [[super allocWithZone:NULL] init];
+                   });
     
     return _sharedDataManager;
 }
@@ -47,24 +50,24 @@ const NSUInteger ORExpectedFolderStoreAppDataErrorCode = 10001;
 
 - (NSManagedObjectModel *)managedObjectModel
 {
-    if ( managedObjectModel )
+    if ( _managedObjectModel )
     {
-        return managedObjectModel;
+        return _managedObjectModel;
     }
 	
     NSURL *modelURL = [[NSBundle mainBundle] URLForResource:@"wordstutorosx" withExtension:@"momd"];
-    managedObjectModel = [[NSManagedObjectModel alloc] initWithContentsOfURL:modelURL];
+    _managedObjectModel = [[NSManagedObjectModel alloc] initWithContentsOfURL:modelURL];
     
-    return managedObjectModel;
+    return _managedObjectModel;
 }
 
 #pragma mark - Managed object context
 
 - (NSManagedObjectContext *)managedObjectContext
 {
-    if ( managedObjectContext )
+    if ( _managedObjectContext )
     {
-        return managedObjectContext;
+        return _managedObjectContext;
     }
     
     NSPersistentStoreCoordinator *coordinator = [self persistentStoreCoordinator];
@@ -78,22 +81,23 @@ const NSUInteger ORExpectedFolderStoreAppDataErrorCode = 10001;
         NSError *error = [NSError errorWithDomain:ORDataManagerDomain code:ORFailedInitializeStoreErrorCode userInfo:userInfo];
         
         [[NSApplication sharedApplication] presentError:error];
+        
         return nil;
     }
     
-    managedObjectContext = [[NSManagedObjectContext alloc] init];
-    [managedObjectContext setPersistentStoreCoordinator:coordinator];
+    _managedObjectContext = [[NSManagedObjectContext alloc] init];
+    [_managedObjectContext setPersistentStoreCoordinator:coordinator];
     
-    return managedObjectContext;
+    return _managedObjectContext;
 }
 
 #pragma mark - Persistent store coordinator
 
 - (NSPersistentStoreCoordinator *)persistentStoreCoordinator
 {
-    if ( persistentStoreCoordinator )
+    if ( _persistentStoreCoordinator )
     {
-        return persistentStoreCoordinator;
+        return _persistentStoreCoordinator;
     }
     
     if ( self.managedObjectModel == nil )
@@ -140,7 +144,7 @@ const NSUInteger ORExpectedFolderStoreAppDataErrorCode = 10001;
     }
     
     NSURL *url = [applicationFilesDirectory URLByAppendingPathComponent:@"wordstutorosx.storedata"];
-    NSPersistentStoreCoordinator *coordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:managedObjectModel];
+    NSPersistentStoreCoordinator *coordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:self.managedObjectModel];
     
     if ( [coordinator addPersistentStoreWithType:NSXMLStoreType configuration:nil URL:url options:nil error:&error] == nil )
     {
@@ -148,62 +152,9 @@ const NSUInteger ORExpectedFolderStoreAppDataErrorCode = 10001;
         return nil;
     }
     
-    persistentStoreCoordinator = coordinator;
+    _persistentStoreCoordinator = coordinator;
     
-    return persistentStoreCoordinator;
-}
-
-#pragma mark -
-
-- (NSApplicationTerminateReply)saveDataModelWithApplication:(NSApplication *)application
-{
-    if ( self.managedObjectContext == nil )
-    {
-        return NSTerminateNow;
-    }
-    
-    if ( [self.managedObjectContext commitEditing] == NO )
-    {
-        LOG_R(@"Unable to commit editing to terminate");
-        return NSTerminateCancel;
-    }
-    
-    if ( [self.managedObjectContext hasChanges] == NO )
-    {
-        return NSTerminateNow;
-    }
-    
-    NSError *error = nil;
-    
-    if ( [self.managedObjectContext save:&error] == NO )
-    {
-        BOOL result = [application presentError:error];
-        
-        if ( result )
-        {
-            return NSTerminateCancel;
-        }
-        
-        NSString *question = NSLocalizedString(@"Could not save changes while quitting. Quit anyway?", @"Quit without saves error question message");
-        NSString *info = NSLocalizedString(@"Quitting now will lose any changes you have made since the last successful save", @"Quit without saves error question info");
-        NSString *quitButton = NSLocalizedString(@"Quit anyway", @"Quit anyway button title");
-        NSString *cancelButton = NSLocalizedString(@"Cancel", @"Cancel button title");
-        
-        NSAlert *alert = [[NSAlert alloc] init];
-        [alert setMessageText:question];
-        [alert setInformativeText:info];
-        [alert addButtonWithTitle:quitButton];
-        [alert addButtonWithTitle:cancelButton];
-        
-        NSInteger answer = [alert runModal];
-        
-        if ( answer == NSAlertAlternateReturn )
-        {
-            return NSTerminateCancel;
-        }
-    }
-    
-    return NSTerminateNow;
+    return _persistentStoreCoordinator;
 }
 
 @end

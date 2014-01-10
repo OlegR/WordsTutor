@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		93CA9E7C187FC733002DBEE8 /* ORDataManager+Save.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CA9E7B187FC733002DBEE8 /* ORDataManager+Save.m */; };
 		D923FD8A1722F4AE00CFCF26 /* ORApp.m in Sources */ = {isa = PBXBuildFile; fileRef = D923FD891722F4AE00CFCF26 /* ORApp.m */; };
 		D9313A691743BDD00036BD2D /* ORPlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = D9313A681743BDD00036BD2D /* ORPlatform.m */; };
 		D96CB8421722687900896F75 /* ORLog.m in Sources */ = {isa = PBXBuildFile; fileRef = D96CB8411722687900896F75 /* ORLog.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		93CA9E7A187FC733002DBEE8 /* ORDataManager+Save.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ORDataManager+Save.h"; path = "DataManager/ORDataManager+Save.h"; sourceTree = "<group>"; };
+		93CA9E7B187FC733002DBEE8 /* ORDataManager+Save.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ORDataManager+Save.m"; path = "DataManager/ORDataManager+Save.m"; sourceTree = "<group>"; };
 		D923FD881722F4AE00CFCF26 /* ORApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORApp.h; path = Utils/ORApp.h; sourceTree = "<group>"; };
 		D923FD891722F4AE00CFCF26 /* ORApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORApp.m; path = Utils/ORApp.m; sourceTree = "<group>"; };
 		D9313A671743BDD00036BD2D /* ORPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORPlatform.h; path = Utils/ORPlatform.h; sourceTree = "<group>"; };
@@ -196,6 +199,8 @@
 			children = (
 				D9BA1149172B94640072ACAC /* ORDataManager.h */,
 				D9BA114A172B94640072ACAC /* ORDataManager.m */,
+				93CA9E7A187FC733002DBEE8 /* ORDataManager+Save.h */,
+				93CA9E7B187FC733002DBEE8 /* ORDataManager+Save.m */,
 				D9CFD97417A40AC400004433 /* wordstutorosx.xcdatamodeld */,
 			);
 			name = DataManager;
@@ -327,6 +332,7 @@
 				D923FD8A1722F4AE00CFCF26 /* ORApp.m in Sources */,
 				D9BA114B172B94640072ACAC /* ORDataManager.m in Sources */,
 				D98979BF173E2EC300F75C1C /* ORMainWindowController.m in Sources */,
+				93CA9E7C187FC733002DBEE8 /* ORDataManager+Save.m in Sources */,
 				D9313A691743BDD00036BD2D /* ORPlatform.m in Sources */,
 				D9F7B0B71747735300C216F5 /* ORLearnWordsViewController.m in Sources */,
 			);

@@ -13,9 +13,9 @@
  */
 @interface ORDataManager : NSObject
 {
-    NSManagedObjectModel* managedObjectModel;
-    NSManagedObjectContext* managedObjectContext;
-    NSPersistentStoreCoordinator* persistentStoreCoordinator;
+    NSManagedObjectModel* _managedObjectModel;
+    NSManagedObjectContext* _managedObjectContext;
+    NSPersistentStoreCoordinator* _persistentStoreCoordinator;
 }
 
 /*!
@@ -25,30 +25,5 @@
  */
 + (ORDataManager*)sharedDataManager;
 
-/*!
- @property      managedObjectModel
- @abstract      Gives access to the managedObjectModel.
- */
-@property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
-
-/*!
- @property      managedObjectContext
- @abstract      Gives access to the managedObjectContext.
- */
-@property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
-
-/*!
- @property      persistentStoreCoordinator
- @abstract      Gives access to the persistentStoreCoordinator.
- */
-@property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
-
-/*!
- @method        saveDataModelWithApplication:
- @abstract      Saves data of the application.
- @param         application Instance of the NSApplication.
- @result        reply Application terminate reply.
- */
-- (NSApplicationTerminateReply)saveDataModelWithApplication:(NSApplication*)application;
 
 @end
